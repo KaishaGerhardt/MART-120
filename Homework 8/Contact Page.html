@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Contact Page</title>
+    <h3> Terms of Agreement</h3>
+
+    <style>
+        body {
+            font-family: NSimSun;
+            color: lightseagreen
+        }
+    </style>
+    <script>
+
+         document.getElementById("myTag").innerHTML = "New Text";
+            function checkform()
+            {
+                var name;
+                document.getElementById("txtName").value;
+        if(name == "")
+        {window.alert("Name is Required.");}
+
+        document.getElementById("txtName").style.backgroundcolor = "red"
+
+      }
+    </script>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="txtName"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="text" id="txtPhone"></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><input type="text" id="txtPhone"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button id="btnSubmit" onClick="checkform();">Submit</button></td>
+        </tr>
+</body>
+<head>
+    <br/>
+    <br />
+    Do you agree that blah blah blah, nobody even reads the terms of agreement.
+    <br />
+    You might regret not reading it but who truly wants to sit down and read a 5 page essay of terms?
+    <br />
+    But if you say yes, you might be accidently selling your soul away or whatever.
+    <br />
+    Only one way to find out.
+    <br />
+    Do you agree to these terms and conditions?
+    <br />
+    <br />
+    <input type="checkbox" name="Yes" value="Yes"> Yes
+    <br>
+    <input type="checkbox" name="no" value="no"> No
+</head>
+</html>
